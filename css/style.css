@@ -1,0 +1,133 @@
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.logo {
+  width: 23%;
+  padding: 1%;
+  text-align: center;
+}
+
+nav {
+  width: 73%;
+  margin-left: auto;
+}
+
+ul {
+  width: 50%;
+  margin-left: auto;
+}
+
+.heroImg {
+  height: 600px;
+  padding: 25px;
+}
+
+.profilePic {
+  float: left;
+  padding: 25px;
+}
+
+.mainPic {
+  float: left;
+  padding: 25px;
+}
+.content {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.caseStudies {
+  text-align: center;
+}
+li {
+  padding: 25px;
+}
+
+.content img {
+  height: 500px;
+  border-radius: 25px;
+}
+
+.logo img {
+  height: 50px;
+  width: 100px;
+}
+
+.rrmPic {
+  height: auto;
+  width: 100%;
+}
+
+.mnsurePic {
+  height: 300px;
+}
+
+.dearmanPic {
+  height: 200px;
+}
+.workGrid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 25px;
+}
+.rrmPic {
+  width: 300px;
+}
+.mnsurePic {
+  width: auto;
+}
+
+.heading {
+  text-align: center;
+  padding: 15px 5px;
+  font-size: 30px;
+}
+
+.flexContainer {
+  display: flex;
+  padding: 60px 30px;
+}
+.flexContainer div {
+  width: 33%;
+  padding: 25px;
+}
+footer {
+  background-color: #373738;
+  color: rgb(241, 245, 243);
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.footer__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  align-content: flex-start;
+}
+
+.footer__list li {
+  margin: 0;
+  padding: 0;
+}
+
+.footer__list a {
+  color: rgb(241, 245, 243);
+  text-decoration: none;
+}
+.footer__list a:hover {
+  text-decoration: underline;
+}
