@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .inline-block {
   display: inline-block;
   vertical-align: top;
@@ -55,6 +59,15 @@ li {
   width: 100px;
 }
 
+.uxPic {
+  width: 100px;
+}
+.uiPic {
+  width: 100px;
+}
+.fePic {
+  width: 100px;
+}
 .rrmPic {
   height: auto;
   width: 100%;
